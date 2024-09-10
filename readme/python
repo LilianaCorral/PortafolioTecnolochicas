@@ -1,0 +1,65 @@
+## DICCIONARIO ##
+La palabra esta ligada a un significado, los diccionarios organizan sus datos como "llave - valor".
+Cada llave tiene un valor asignado y para acceder al valor solo se debe pedir la llave para acceder al valor.
+
+La creación del diccionario queda de la siguiente manera.
+
+diccionario={
+  "llave_1": 1,
+  "llave_2": 2,
+  "llave_3": 3,
+}
+
+#ejemplo utilizando números#
+diccionario_numerico = {
+  1: "uno",
+  2: "dos",
+  3: "tres",
+  4: "cuatro",
+  5: "cinco"
+}
+#ejemplo que muestra la creación de un diccionario y como podemos visualizar el contenido.
+nombre_profesion = {
+  "Alejandro P.": "Medico",
+  "Jenny L":  "Bailarina de tap",
+  "Juli B.": "Ingeniero",
+  "Carlos Baute": Aequitecto
+}
+
+#para consultar un dato del diccionario
+nombre_profesion["Jenny L"]
+Output: 'Bailarina de tap' -> este será el resultado
+
+####Agregando datos al diccionario###
+nombre_profesion["Pepe Juan"] = "Analista de datos"
+#consultando el datoagregado#
+nombre_profesion["Pepe Juan"]
+Output: 'Analista de datos'
+
+#######  MODIFICANDO DATOS  ###
+solamente se vuelve a a asignar el nuevo valor a la llave que se desea modificar.
+nombre_profesion["Jenny"]="coach de equipo de futbol"
+#consultamos
+nombre_profesion["Jenny"]
+Output: 'coach de equipo de futbol'
+
+##DICCIONARIOS Y LISTAS DENTRO DE LOS DICCIONARIOS##
+#dentro de los diccionarios tambien puede haber listas o incluso otros diccionarios
+datos_compras={
+  "nombre": "Alberto Suarez",
+  "productos_comprados:{"TV", "Chromebook", "VGA-USB-C"},
+  "direccion_de_facturacion": {
+  "colonia": "Escandon",
+  "calle": "Independencia",
+  "numero": 111,
+  "cp": 51360
+  }
+}
+
+####   MODIFICANDO DATOS DEL DICCIONARIO QUE CONTIENE DICCIONARIOS Y LISTAS###
+
+datos_compras["productos_comprados"].append ("Ipad Nano")
+datos_compras["direccion_de_facturacion"]["numero"]=55
+#imprimiendo en pantalla
+pprint(datos_compras)
+
