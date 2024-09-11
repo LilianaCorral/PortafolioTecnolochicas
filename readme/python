@@ -63,3 +63,13 @@ datos_compras["direccion_de_facturacion"]["numero"]=55
 #imprimiendo en pantalla
 pprint(datos_compras)
 
+###   ELIMINANDO DATOS DEL DICCIONARIO  ###
+nombre_profesion  =  {
+  "Marco P.": "fontanero",
+  "jenny L.": "bailarina de tap",
+  "chaveta N.": "jugador de tennis",
+  "martin M.": "estrella de cine"
+}
+nombre_profesion.pop("martin M.")
+Output -> ya deberia mostrar los registros actualizados.
+
