@@ -73,3 +73,47 @@ nombre_profesion  =  {
 nombre_profesion.pop("martin M.")
 Output -> ya deberia mostrar los registros actualizados.
 
+### --- FUNCIONES ---  ###
+
+##Cantidad de alumnos estudiando en la UNAM en el ciclo escolar 2009-2010
+#fuente: http://www.estadistics.uanem.mx/numeralia/
+
+total_de_alumnos=360883
+alumnos_en_posgrado=30634
+alumnos_en_licenciatura=217808
+alumnos_de_bachillerato=111569
+alumnos_de_musica= 873
+
+alumnos_en_posgrado_proc = alumnos_en_posgrado * 100 / total_de_alumnos
+alumnos_en_licenciatura_proc = alumnos_en_licenciatura*100 / total_de_alumnos
+alumnos_en_bachillerato_proc = alumnos_en_bachillerato * 100 / total_de_alumnos
+alumnos_en_musica_proc = alumnos * 100 / total_alumnos
+
+#Para declarar una función se define de la siguiete forma:
+def
+o se puede elegir un nombre para la función
+
+def sumar_dos_a_numero[]  #asi se define la función
+Agregando parametros:
+def sumar_dos_a_numero(numero)
+
+#otro ejemplo para definir la función
+def sumar_dos_a_numero(numero):
+suma = numero + 2 
+return suma #regresa el valor de la suma
+
+#suma del resultado de la función más otro número
+suma_de_5_mas_2 = sumar_dos_a_numero(5)
+suma_de_5_mas_2
+Output: 7
+
+##########################
+print(sumar_dos_a_numero(3))  # Output: 5
+print(sumar_dos_a_numero(30)) #Output: 12
+print(sumar_dos_a_numero(222))  #Output: 224
+print(sumar_dos_a_numero(1036))  #Output: 1038
+
+
+###  FUNCIÓN PARA CUATIFICAR PORCENTAJES   ######
+
+
