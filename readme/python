@@ -115,5 +115,19 @@ print(sumar_dos_a_numero(1036))  #Output: 1038
 
 
 ###  FUNCIÓN PARA CUATIFICAR PORCENTAJES   ######
+##como declarar funciones globales
+variable_global="hola"
+variable_global
+
+##variable dentro de un if
+if status== 'OK'
+  respuesta ="el proceso fue llevado a cabo con exito"
+espuesta
+
+##variables dentro de las funciones
+No se puede acceder correctamente debido a que si cambian el contexto del programa enpthyton
+- para lograr acceder al programa se realizara de la siguiete manera:
+variable_retorno_por_la_funcion = sumar_dos_a_numero(20)
+variable_retorno_por_la_funcion
 
 
