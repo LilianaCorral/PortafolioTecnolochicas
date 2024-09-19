@@ -10,6 +10,24 @@ Espero que ya haya quedado clara la idea básica de cómo funciona un programa: 
 Map es una función que nos ayuda a realizar este procedimiento muy fácilmente. Vamos a ver cómo funciona.
 
 Digamos que tenemos una estructura de datos que se ve así:
+numeros: [1,2,3,4,5,5,6,7,8,9]
 
-prueba
-Esto es una simple lista con ints dentro. Ahora, digamos que queremos multiplicar cada uno de los elementos de esta lista por 2. Una manera horrible, lenta e impráctica de hacer esto sería lo siguiente:
+Esto es una simple lista con ints dentro. Ahora, digamos que queremos multiplicar 
+cada uno de los elementos de esta lista por 2. Una manera horrible, lenta e impráctica .
+###Lo más conveiente es realizar el encapsulamiento de una función.
+
+def multiplicar_por_dos(numero)
+  resultado = numero * 2
+  return resultado
+
+map(multiplicar_por_dos, numeros)
+Output: <map at 0x10dd53160>
+
+##### La función list permite convertir cualquier cosa que le pases a una lista:
+list(map(multiplicar_por_dos, numeros))
+Output: [2,4,6,8,10,12,14,16,118]
+
+#### LA FUNCION MAP  ####
+Aplica la funcion elemento por elemento sin importar el numero de elemntos que haya.
+Simplemente recorre todos los elemntos que encuentre, transformandolos y regresandolos
+en una lista
