@@ -31,3 +31,19 @@ Output: [2,4,6,8,10,12,14,16,118]
 Aplica la funcion elemento por elemento sin importar el numero de elemntos que haya.
 Simplemente recorre todos los elemntos que encuentre, transformandolos y regresandolos
 en una lista
+
+
+#convirtiendo en 0's los numeros que no son pares
+numeros = [2,34,54,45,77,99,12,13,15,1,2,7,10 ]
+  if numeros % 2 == 0:
+    return numeros
+  else:
+    return 0:
+
+
+#filtrado de números 
+def numero_es_positivo(numero):
+  if numero >= 0:
+    return True
+  else:
+    return False
