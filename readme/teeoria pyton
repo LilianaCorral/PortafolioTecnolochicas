@@ -1,0 +1,15 @@
+Conceptos teóricos
+Encapsulamiento de comportamiento para quela información sea reutizable
+- Paradigmas de programación es un conjuto de herramietas metdoso y reglas que se reunen cohesivamente y se utilizan ara resolsver p
+problemas computacionales
+
+Map
+
+Espero que ya haya quedado clara la idea básica de cómo funciona un programa: tenemos estructuras de datos, tenemos funciones, y luego aplicamos esas funciones a nuestras estructuras de datos para transformar nuestros datos.
+
+Map es una función que nos ayuda a realizar este procedimiento muy fácilmente. Vamos a ver cómo funciona.
+
+Digamos que tenemos una estructura de datos que se ve así:
+
+prueba
+Esto es una simple lista con ints dentro. Ahora, digamos que queremos multiplicar cada uno de los elementos de esta lista por 2. Una manera horrible, lenta e impráctica de hacer esto sería lo siguiente:
