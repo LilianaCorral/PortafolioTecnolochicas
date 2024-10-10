@@ -1,1 +1,3 @@
-#
+#pprint ->Permite imprimir información de manera ordenada donde se le da un formato
+from pprint import pprint
+pprint(info_de_contacto)
