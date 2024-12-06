@@ -1,1 +1,25 @@
+#contiene informacion acerca del Bootcamp de Bedu Tecnolochicas.
 
+// Consulta que indica obtener el campo 'nombre' de la tabla 'persona' siempre y cuando el apellido paterno inicie con
+la letra 'S'. Por ejemplo Sanchez, Saldivar, SUarez
+SELECT nombre
+FROM persona
+WHERE apellido_paterno LIKE 'S%';
+
+La siguiente clausula indica realizar una consulta donde el campo nombre de la tabla Persona siempre y cuando el 
+apellido materno comtenga la subcadena am, el simbolo % indica que puede tener diferentes caracteres despues de los %
+SELECT nombre
+FROM persona
+WHERE apellido_materno LIKE '%am%';
+
+La siguiente cadena permite realizar la busqueda del campo nombre de la tabla Persona, siempre y cuando el apellido 
+materno contenga a la subcadena 'Mendoz'. El simbolo '_' despues de la cadena a buscar indica que puede ser reeemplazado 
+por cualquier caracter.
+SELECT nombre
+FROM persona
+WHERE apellido_materno LIKE 'Mendoz_';
+
+
+SELECT nombre
+FROM persona
+WHERE apellido_paterno NOT LIKE '%a';
