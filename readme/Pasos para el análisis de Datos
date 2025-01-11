@@ -1,1 +1,4 @@
+Para realizar un análisis estadístico o visualizaciones la BD debe estar ordenada para realizar un correcto procesamiento de Datos, de esta manera podremos (explorar, limpiar, transformar, ordenar y estructurar los datos) esto para poder analizar y visualizar los datos.
 
+vamos a practicar un JupiterNotbook en google colab
+File > Open Notebook > Click en pestaña Github, pegar el link del repositorio para que nos lea los archivos que se tienen en github > Click en el reto y listo
