@@ -1,3 +1,15 @@
 #pedir al usuario su nombre y mostrar un saludo
 nombre = input("Ingresa tu nombre: ")
 print("Hola,",nombre + "!")
+
+#################################################
+#En el siguiente programa se solicita:
+1. Imprimir en una linea los valores de las variables, separados por ','
+2. Imprimir la suma de las tres variables.
+
+john=3
+mary=5
+adan=6
+total_apples=john, mary, adan
+print(john, mary,adan, sep=',')
+print(total_apples)
